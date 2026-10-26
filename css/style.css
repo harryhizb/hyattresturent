@@ -60,8 +60,8 @@ h2.display{font-size:clamp(2.5rem,6vw,4.75rem)}
 
 /* Hero */
 .hero{position:relative;min-height:100svh;background:var(--green);padding:calc(var(--header) + 2.5rem) 0 4.5rem;display:flex;align-items:center;overflow:hidden}
-.hero-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(2rem,5vw,5rem);align-items:center;width:100%}
-.hero-copy{padding-left:max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));max-width:58rem;width:100%}
+.hero-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(2rem,5vw,7rem);align-items:center;width:100%}
+.hero-copy{padding-left:max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));max-width:42rem;width:100%}
 .hero h1{font-size:clamp(2.9rem,5.6vw,6.4rem)}
 .hero h1 .w{display:inline-block;opacity:0;transform:translateY(.5em);animation:rise .9s var(--ease) forwards;animation-delay:calc(.15s + var(--i)*.09s)}
 .hero .lede{margin-top:1.8rem;color:rgba(247,243,234,.82);opacity:0;animation:rise .9s var(--ease) .95s forwards}
